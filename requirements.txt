@@ -1,0 +1,10 @@
+BACKEND:
+pip install django django-cors-headers djangorestframework pillow requests sqlparse
+
+FRONTEND:
+canvasjs/react-charts
+axios
+react-error-boundary
+react-icons
+react-router-dom
+react-toastify

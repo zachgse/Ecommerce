@@ -1,0 +1,45 @@
+.dropdown-content {
+    display: none;
+}
+  
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content {
+  display: block;
+}
+
+.owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.owl-carousel .owl-prev {
+    margin-left: -30px;
+}
+
+.owl-carousel .owl-next {
+    margin-right: -30px;
+} 
+
+.owl-carousel .owl-prev,
+.owl-carousel .owl-next {
+    display: block !important;
+    font-size: 100px !important;
+    color: #0369A1 !important;
+    border: #0369A1 !important;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trending-card {
+    border: solid 1px #e1e1e1;
+}
+
+.trending-card:hover {
+    cursor: pointer; 
+    border: solid 1px #0369A1;
+    transform: scaleX(1.02);
+}

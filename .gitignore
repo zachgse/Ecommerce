@@ -1,0 +1,19 @@
+# Ignore Python cache files
+__pycache__/
+
+# Ignore Python virtual environment
+ecommerce_venv/
+
+# Ignore Django-related settings and migrations if necessary
+ecommerce/settings.py
+ecommerce/*/migrations/
+
+#Ignore file uploads
+media/
+
+# Ignore build output
+frontend/build/
+
+# Ignore Node.js dependencies
+frontend/node_modules/
+
